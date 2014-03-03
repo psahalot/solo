@@ -843,12 +843,12 @@ Site Header
 --------------------------------------------- */
 
 .title-area {
-	float: left;
+	float: none;
 	font-family: Lato, sans-serif;
 	font-weight: 700;
 	padding: 16px 0;
 	padding: 1.6rem 0;
-	width: 320px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -914,9 +914,11 @@ Site Header
 }
 
 .site-header .widget-area {
-	float: right;
-	text-align: right;
-	width: 800px;
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin-top: 30px; 
+	margin-top: 3rem; 
 }
 
 .header-image .site-header .widget-area {
