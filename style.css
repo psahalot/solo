@@ -1640,3 +1640,12 @@ Media Queries
 
 
 }
+
+@media only screen and (max-width: 480px) {
+	.site-header {
+		margin-top: 0;
+	}
+	.nav-primary {
+		position: relative; 
+	}
+}
